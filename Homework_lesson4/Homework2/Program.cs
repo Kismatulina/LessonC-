@@ -8,6 +8,28 @@
 9012 -> 12
 Обязательно работать с int как на занятии 4
 */
+/*
+Console.WriteLine("Введите число:"); // Вывод в консоль предложения ввести число
+int number = int.Parse(Console.ReadLine()); // ввод в консоль числа
+
+Console.WriteLine(GetSumNumber(number)); // вывод в консоль результата выполнения метода
+
+int a = int.Parse(Console.ReadLine());
+//int sum = GetSumToNumber(b);
+//Console.WriteLine(sum);
+
+
+int GetSumToNumber(int number)
+{
+    int sum = 0;
+
+    for (int i = 1; i <= number; i++)
+    {
+        sum += i;
+    }
+
+    return sum;
+}*/ 
 
 Console.WriteLine("Введите число:"); // Вывод в консоль предложения ввести число
 int number = int.Parse(Console.ReadLine()); // ввод в консоль числа
